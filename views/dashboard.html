@@ -1,0 +1,48 @@
+<html>
+    <head>
+        
+        <link rel="stylesheet" href="/css/table.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/1.5.0/axios.min.js"></script>
+       <style>
+         #div3{
+             float: left;
+            display:none;
+            
+         }
+       </style>
+   
+    </head>
+
+    <body>
+        <div id="div1" style="float: left;">
+        <h1>Appointment</h1>
+   
+            <table id="table">
+    
+            </table>
+        </div>
+        <div id="div3">
+            <form class="form" id="bookingform">
+                <p>
+                <input type="text" id="name" placeholder="name">
+                </p>
+                <p>
+                <input type="email" id="email" placeholder="email">
+                </p>
+               
+        
+                <button type="submit">Book</button>
+                
+              </form>
+
+        </div>
+        <br>
+           <div id="div2" style="float:inline-end;">
+         <h2>Alloted Data</h2>
+           <table id="table2">
+           </table>
+
+        </div>
+        <script src="dashboard.js"></script>
+    </body>
+</html>

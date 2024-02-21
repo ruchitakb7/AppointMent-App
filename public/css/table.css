@@ -1,0 +1,26 @@
+
+body {
+ 
+    line-height: 1.8;
+    min-height: 100vh;
+  
+}
+
+table {
+  
+font-family: arial, sans-serif;
+border-collapse: collapse;
+width:400px;
+margin-left: 20px;
+margin-top: 60px;
+
+}
+td,th{
+border: 1px solid #dddddd;
+text-align: center;
+padding: 8px;
+}
+
+tr:nth-child(even) {
+background-color: #dddddd;
+}
