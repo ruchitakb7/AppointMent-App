@@ -3,11 +3,11 @@ const app= express();
 
 const path=require('path');
 
-const seq = require('./util/database');
+const seq = require('./util/database');  
 
 app.use(express.json());
 
-app.use(express.static('public')) 
+app.use(express.static('public')) //static
 
 app.use(express.static(path.join(__dirname, "views"))) 
 
@@ -17,7 +17,7 @@ const routerfile= require('./routes/routes.js');
 
 seq.sync()
 .then(res=>
-   { app.listen(1016);  
+   { app.listen(1017);  
 })                               
 .catch((e)=>{
    console.log(e)
