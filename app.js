@@ -17,7 +17,7 @@ const routerfile= require('./routes/routes.js');
 
 seq.sync()
 .then(res=>
-   { app.listen(1017);  
+   { app.listen(3004);  
 })                               
 .catch((e)=>{
    console.log(e)
